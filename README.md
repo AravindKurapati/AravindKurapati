@@ -19,6 +19,7 @@ i build ML systems, read error logs so you don't have to, and make the most of f
 - fine-tuned **Mistral 7B** on legal contracts → model underperformed the base, figured out exactly why (512-token truncation cutting off late clauses), wrote it up anyway because that's the actual job
 - benchmarked **LLaMA 3.1 8B vs Mistral 7B** on SEC filings on Modal A10G → Mistral is 4.5x faster on TTFT, here's the data
 - predicted **cancer subtypes from pathology slides** at NYU Langone using SSL + attention MIL on gigapixel WSIs
+- too much time on Twitter → built a **dashboard to track leaked system prompts** from the OG repos in real time, because someone had to
 
 ---
 
