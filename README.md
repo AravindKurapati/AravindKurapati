@@ -7,7 +7,7 @@ i work on ML and AI systems and make the most of free cloud credits
 
 ### recent stuff
 
-- building an agentic drug discovery pipeline on NVIDIA BioNeMo NIMs + Modal — ReAct agent autonomously designs and scores protein binders end-to-end, no human intervention mid-run
+- building an agentic drug discovery pipeline on NVIDIA BioNeMo NIMs + Modal. An agent autonomously designs and scores protein binders end to end with no human intervention mid run
 - built a CLI to track Claude session windows and weekly usage after realizing I was burning 10-15% of my limit on sessions I never finished
 - built a retro terminal dashboard that uses an agentic loop to scan GitHub for creative coding projects across NYC, London, SF & LA.
 - benchmarked LLaMA 3.1 8B vs Mistral 7B on SEC 10-K filings on Modal A10G. Mistral is 4.5x faster on TTFT. built the full RAG pipeline: vLLM + FAISS + FastAPI + Streamlit
