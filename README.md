@@ -7,13 +7,15 @@ i work on ML and AI systems and make the most of free cloud credits
 
 ### recent stuff
 
-
-- built a CLI to track Claude session windows and weekly usage after realizing I was burning 10-15% of my limit on sessions I never finished
+- built a flight recorder for Claude Code & codex agents.....captures every tool call, shell command, error and API cost per session 
+- built a CLI to track Claude session windows and weekly usage after realizing I was burning 10-15% of my limit on sessions I never finished. also added a tool that indexes them, embeds them with MiniLM, and whispers "you already tried this" before I start something redundant
+  
 - built a retro terminal dashboard that uses an agentic loop to scan GitHub for creative coding projects across NYC, London, SF & LA.
 - benchmarked LLaMA 3.1 8B vs Mistral 7B on SEC 10-K filings on Modal A10G. Mistral is 4.5x faster on TTFT. built the full RAG pipeline: vLLM + FAISS + FastAPI + Streamlit
 
 - spotted a repo tracking leaked system prompts from major AI labs on Twitter. forked it and built a dashboard on top so people can actually see the diffs and changes over time
 - ran a full scale inference of **AlphaFold2** (DeepMind) on GCP. hit every CUDA error imaginable, debugged all of them, documented the whole thing
+  
 - predicted **cancer subtypes from pathology slides** at NYU Langone using Self Supervised Learning + attention MIL on gigapixel WSIs
 - published 2 research papers in 2021 before the AI boom, before Claude/ChatGPT, before any of this was cool! benchmarked projects written from scratch and debugged entirely on Stack Overflow like a normal person
 
